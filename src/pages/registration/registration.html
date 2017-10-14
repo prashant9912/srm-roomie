@@ -1,0 +1,68 @@
+<!--
+  Generated template for the RegistrationPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>
+        <img src="img/logo.png" width="30px" > Registration</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <img src="img/ban5.png" width="100%"/>
+    <div padding>
+    <h2 id="welcome" style="text-align:center">Join The Most Awesome Club!</h2>
+
+    <ion-list>
+        
+          <ion-item>
+            <ion-label floating>Name*</ion-label>
+            <ion-input type="text"></ion-input>
+          </ion-item>
+        
+          <ion-item>
+            <ion-label floating>Email*</ion-label>
+            <ion-input type="email"></ion-input>
+          </ion-item>
+
+          <ion-item>
+              <ion-label floating>Registration Number*</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    &nbsp;
+                </div>
+                <select id="mySelect">
+                    <option selected value="no">Select Domain*</option>
+                    <option >Web</option>
+                    <option>App</option>
+                    <option >Virtual Reality</option>
+                    <option>Graphic Designing</option>
+                    <option value="">Vfx</option>
+                    <option value="">Game Development</option>
+                    <option value="">HR and Digital Marketing</option>
+                    <option value="">Quality Assurance and Testing</option>
+                </select>
+            </label>
+
+            <ion-item>
+                <ion-label floating>Why you want to join this club?</ion-label>
+                <ion-input type="text"></ion-input>
+              </ion-item>
+<br>
+<br>
+<button ion-button (click)="thank()" color="secondary" style="text-align:center;width:100%;">Register Now ></button>
+            
+        </ion-list>
+
+        
+        </div>
+  </ion-content>
